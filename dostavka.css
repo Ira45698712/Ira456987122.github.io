@@ -2,6 +2,7 @@ body {
     height: 100%;
     margin: 0;
 }
+
 .header {
     display: flex;
     flex-direction: row;
@@ -21,7 +22,7 @@ body {
     font-size: 40px;
     line-height: 25px;
     letter-spacing: 0.15em;
-    color:#5f9266;
+    color: #5f9266;
 }
 
 .paspologenie {
@@ -71,7 +72,8 @@ body {
     height: 40px;
     margin-top: 28px;
 }
-.pozvonit img:hover{
+
+.pozvonit img:hover {
     border: solid 1px #5f9266;
 }
 
@@ -80,9 +82,11 @@ body {
     flex-direction: column;
     margin-left: 20px;
 }
+
 .pozvonit_phone_tel:hover {
     text-decoration: underline;
 }
+
 .pozvonit_phone_kontakt {
     margin-top: 28px;
     font-style: normal;
@@ -108,7 +112,8 @@ body {
     margin-left: 210px;
     margin-top: 25px;
 }
-.korzina_header_nadpis{
+
+.korzina_header_nadpis {
     border-right: solid 1px rgb(11, 2, 2);
     width: 70px;
     padding-bottom: 10px;
@@ -117,18 +122,21 @@ body {
     color: white;
     font-size: 17px;
 }
-.korzina_header img{
+
+.korzina_header img {
     width: 32px;
     height: 32px;
     margin-left: 8px;
     margin-top: 10px;
 }
-.korzina_header:hover{
+
+.korzina_header:hover {
     background: #315336;
     text-decoration: underline;
     width: 157px;
     height: 55px;
 }
+
 .menu_ssilki {
     margin: 0;
     background-color: #403C3B;
@@ -158,7 +166,7 @@ body {
     background-color: #403C3B;
     list-style-type: none;
     padding-top: 20px;
-    
+
 }
 
 ul li a {
@@ -178,7 +186,8 @@ ul li a:hover {
     background: linear-gradient(360deg, #211F20 0%, #44403F 100%);
     height: 980px;
 }
-.pereiti_k_vibory:hover{
+
+.pereiti_k_vibory:hover {
     font-size: 18px;
 }
 
@@ -190,11 +199,13 @@ ul li a:hover {
     text-transform: uppercase;
     color: #FFFFFF;
 }
-.page{
+
+.page {
     display: flex;
     flex-direction: row;
 }
-.main_inf_about_dostavka{
+
+.main_inf_about_dostavka {
     display: flex;
     flex-direction: column;
     margin-left: 150px;
@@ -212,84 +223,93 @@ ul li a:hover {
     font-size: 18px;
     padding-left: 20px;
     padding-top: 15px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-  }
-  
-  input[
-    name='conditions'] {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+input[ name='conditions'] {
     display: none;
-  }
-  
-  .text-for-conditions {
+}
+
+.text-for-conditions {
     display: none;
-  }
-  
-  #sdacha:checked~#t-sdacha {
+}
+
+#sdacha:checked~#t-sdacha {
     display: block;
-  }
-  
-  #delivery:checked~#t-delivery {
+}
+
+#delivery:checked~#t-delivery {
     display: block;
-  }
-  
-  #product:checked~#t-product {
+}
+
+#product:checked~#t-product {
     display: block;
-  }
-  #remarks:checked~#t-remarks {
+}
+
+#remarks:checked~#t-remarks {
     display: block;
-  }
-  #payment:checked~#t-payment {
+}
+
+#payment:checked~#t-payment {
     display: block;
-  }
-  #requisites:checked~#t-requisites {
+}
+
+#requisites:checked~#t-requisites {
     display: block;
-  }
-  .text-for-conditions{
-      height: 85px;
-      width: 598px;
-      background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
-border-radius: 10px;
-font-size: 17px;
-color: rgb(238, 236, 236);
-margin-top: 10px;
-padding-top: 15px;
-padding-left: 20px;
-padding-right: 20px;
-font-family:Georgia, 'Times New Roman', Times, serif;
-  }
-  .karta{
-      margin-left: 30px;
-      margin-top: 55px;
-      width: 600px;
-      height: 400px;
-  }
-  .grafik_raboti{
-      display: flex;
-      flex-direction: row;
-      color: whitesmoke;
-      font-size: 18px;
-      margin-top: 15px;
-      margin-left: 150px;
-      font-family: Georgia, 'Times New Roman', Times, serif;
-  }
-  .grafik_raboti_restorana{
-      margin-left: 100px;
-  }
-  .min_zakaz_nazvanie{
-      color: whitesmoke;
-      font-size: 18px;
-      font-family: Georgia, 'Times New Roman', Times, serif;
-      margin-left: 150px;
-      margin-top: 30px;
-  }
-  .min_zakaz{
+}
+
+.text-for-conditions {
+    height: 85px;
+    width: 598px;
+    background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
+    border-radius: 10px;
+    font-size: 17px;
+    color: rgb(238, 236, 236);
+    margin-top: 10px;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.karta {
+    margin-left: 30px;
+    margin-top: 55px;
+    width: 600px;
+    height: 400px;
+}
+
+.grafik_raboti {
+    display: flex;
+    flex-direction: row;
+    color: whitesmoke;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-left: 150px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.grafik_raboti_restorana {
+    margin-left: 100px;
+}
+
+.min_zakaz_nazvanie {
+    color: whitesmoke;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+.min_zakaz {
     color: whitesmoke;
     font-size: 17x;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-left: 150px;
     width: 650px;
-  }
-  .footer {
+}
+
+.footer {
     width: 100%;
     background: linear-gradient(270.7deg, #44403F 0.4%, #211F20 100%);
     height: 195px;
@@ -303,13 +323,15 @@ font-family:Georgia, 'Times New Roman', Times, serif;
     width: 64px;
     height: 64px;
 }
-.vverx:hover{
+
+.vverx:hover {
     position: absolute;
     top: 46px;
     left: 35px;
     width: 70px;
     height: 70px;
 }
+
 .foorer_container {
     display: flex;
     flex-direction: row;
@@ -349,12 +371,15 @@ font-family:Georgia, 'Times New Roman', Times, serif;
     line-height: 16px;
     color: #FFFFFF;
 }
-.prava2 a{
+
+.prava2 a {
     color: #FFFFFF;
 }
-.prava2 a:hover{
+
+.prava2 a:hover {
     color: #5f9266;
 }
+
 .osn_navigation {
     display: flex;
     flex-direction: row;
@@ -373,11 +398,13 @@ font-family:Georgia, 'Times New Roman', Times, serif;
     line-height: 24px;
     color: #FFFFFF;
 }
+
 .osn_navigation a:hover {
     font-size: 24px;
     color: #5f9266;
 }
-@media screen and (max-width: 1350px){
+
+@media screen and (max-width: 1350px) {
     .header {
         display: flex;
         flex-direction: row;
@@ -388,7 +415,7 @@ font-family:Georgia, 'Times New Roman', Times, serif;
         background: #403C3B;
         box-shadow: 0px 30px 60px rgba(34, 31, 32, 0.2);
     }
-    
+
     .LaVue {
         width: 100px;
         height: 25px;
@@ -400,13 +427,13 @@ font-family:Georgia, 'Times New Roman', Times, serif;
         font-size: 40px;
         line-height: 25px;
         letter-spacing: 0.15em;
-        color:#5f9266;
+        color: #5f9266;
     }
-    
+
     .paspologenie {
         position: relative;
     }
-    
+
     .adrres {
         background-color: #504B4A;
         font-family: 'Gilroy';
@@ -416,47 +443,47 @@ font-family:Georgia, 'Times New Roman', Times, serif;
         font-weight: 400;
         font-size: 18px;
         line-height: 21px;
-        margin-left:50px;
+        margin-left: 50px;
         margin-top: 5px;
         border-radius: 5px;
         padding-left: 30px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
+
     }
-    
+
     .lupa {
         position: absolute;
         right: 12px;
         top: 15px;
         width: 19px;
     }
-    
+
     .znachok_paspologenie {
         position: absolute;
         left: 55px;
         top: 13px;
         width: 25px;
     }
-    
-    
+
+
     .pozvonit {
         display: flex;
         flex-direction: row;
         margin-left: 40px;
     }
-    
+
     .pozvonit img {
         width: 30px;
         height: 30px;
         margin-top: 28px;
     }
-    
+
     .pozvonit_phone {
         display: flex;
         flex-direction: column;
         margin-left: 20px;
     }
-    
+
     .pozvonit_phone_kontakt {
         margin-top: 20px;
         font-style: normal;
@@ -464,14 +491,14 @@ font-family:Georgia, 'Times New Roman', Times, serif;
         line-height: 20px;
         color: #CFCFCF;
     }
-    
+
     .pozvonit_phone_tel {
         color: white;
         margin-top: -15px;
         font-weight: 400;
         font-size: 17px;
     }
-    
+
     .korzina_header {
         display: flex;
         flex-direction: row;
@@ -482,7 +509,8 @@ font-family:Georgia, 'Times New Roman', Times, serif;
         margin-left: 40px;
         margin-top: 10px;
     }
-    .korzina_header_nadpis{
+
+    .korzina_header_nadpis {
         border-right: solid 1px rgb(11, 2, 2);
         width: 70px;
         padding-bottom: 10px;
@@ -491,18 +519,20 @@ font-family:Georgia, 'Times New Roman', Times, serif;
         color: white;
         font-size: 17px;
     }
-    .korzina_header img{
+
+    .korzina_header img {
         width: 32px;
         height: 32px;
         margin-left: 8px;
         margin-top: 10px;
     }
-    .korzina:hover{
+
+    .korzina:hover {
         background: #315336;
         text-decoration: underline;
         width: 157px;
         height: 55px;
-    }  
+    }
 
     .menu_ssilki {
         margin: 0;
@@ -512,7 +542,7 @@ font-family:Georgia, 'Times New Roman', Times, serif;
         flex-direction: column;
         border-bottom: solid 1px rgba(255, 255, 255, 0.08);
     }
-    
+
     .menu {
         font-family: 'Radio Canada', sans-serif;
         display: flex;
@@ -534,14 +564,16 @@ font-family:Georgia, 'Times New Roman', Times, serif;
         list-style-type: none;
         padding-top: 20px;
     }
+
     .uslovia_dostavki {
         background: linear-gradient(360deg, #211F20 0%, #44403F 100%);
         height: 1380px;
     }
-    .pereiti_k_vibory{
+
+    .pereiti_k_vibory {
         display: none;
     }
-    
+
     .uslovia_dostavki h1 {
         margin-top: 60px;
         margin-left: 50px;
@@ -550,24 +582,28 @@ font-family:Georgia, 'Times New Roman', Times, serif;
         text-transform: uppercase;
         color: #FFFFFF;
     }
-    .page{
+
+    .page {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .about{
+
+    .about {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    .main_inf_about_dostavka{
+
+    .main_inf_about_dostavka {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         margin-left: 50px;
     }
+
     .lbl-conditions {
         border: 1px solid black;
         width: 618px;
@@ -579,54 +615,61 @@ font-family:Georgia, 'Times New Roman', Times, serif;
         font-size: 18px;
         padding-left: 20px;
         padding-top: 15px;
-        font-family:Georgia, 'Times New Roman', Times, serif;
-      }
-      .text-for-conditions{
-          height: 85px;
-          width: 598px;
-          background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
-    border-radius: 10px;
-    font-size: 17px;
-    color: rgb(238, 236, 236);
-    margin-top: 10px;
-    padding-top: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-      }
-      .karta{
-          margin-left: 50px;
-          margin-top: 55px;
-          width: 618px;
-          height: 400px;
-      }
-      .grafik_raboti{
-          display: flex;
-          flex-direction: row;
-          color: whitesmoke;
-          font-size: 18px;
-          margin-top: 15px;
-          margin-left: 50px;
-          font-family: Georgia, 'Times New Roman', Times, serif;
-      }
-      .grafik_raboti_restorana{
-          margin-left: 100px;
-      }
-      .min_zakaz_nazvanie{
-          color: whitesmoke;
-          font-size: 18px;
-          font-family: Georgia, 'Times New Roman', Times, serif;
-          margin-left: 5px;
-          margin-top: 30px;
-      }
-      .min_zakaz{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .text-for-conditions {
+        height: 85px;
+        width: 598px;
+        background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
+        border-radius: 10px;
+        font-size: 17px;
+        color: rgb(238, 236, 236);
+        margin-top: 10px;
+        padding-top: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .karta {
+        margin-left: 50px;
+        margin-top: 55px;
+        width: 618px;
+        height: 400px;
+    }
+
+    .grafik_raboti {
+        display: flex;
+        flex-direction: row;
+        color: whitesmoke;
+        font-size: 18px;
+        margin-top: 15px;
+        margin-left: 50px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .grafik_raboti_restorana {
+        margin-left: 100px;
+    }
+
+    .min_zakaz_nazvanie {
+        color: whitesmoke;
+        font-size: 18px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-left: 5px;
+        margin-top: 30px;
+    }
+
+    .min_zakaz {
         color: whitesmoke;
         font-size: 17x;
         font-family: Georgia, 'Times New Roman', Times, serif;
         margin-left: 70px;
         width: 650px;
-      }
-      .footer {
+    }
+
+    .footer {
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -636,6 +679,7 @@ font-family:Georgia, 'Times New Roman', Times, serif;
         height: 195px;
         position: relative;
     }
+
     .vverx {
         position: absolute;
         top: 51px;
@@ -643,30 +687,35 @@ font-family:Georgia, 'Times New Roman', Times, serif;
         width: 44px;
         height: 44px;
     }
-    .vverx:hover{
+
+    .vverx:hover {
         position: absolute;
         top: 46px;
         left: 35px;
         width: 70px;
         height: 70px;
     }
+
     .foorer_container {
         display: flex;
         flex-direction: row;
         margin-left: 159px;
-    } 
+    }
+
     .footer_inf {
         display: flex;
         flex-direction: column;
         color: white;
     }
+
     .LOGOS2 {
         font-style: normal;
         font-size: 35px;
         line-height: 25px;
         letter-spacing: 0.15em;
         color: #5f9266;
-    }   
+    }
+
     .prava {
         margin-top: -10px;
         width: 200px;
@@ -675,7 +724,8 @@ font-family:Georgia, 'Times New Roman', Times, serif;
         font-size: 13px;
         line-height: 14px;
         color: #CFCFCF;
-    } 
+    }
+
     .prava2 {
         list-style-type: none;
         text-decoration: underline;
@@ -687,12 +737,15 @@ font-family:Georgia, 'Times New Roman', Times, serif;
         line-height: 16px;
         color: #FFFFFF;
     }
-    .prava2 a{
+
+    .prava2 a {
         color: #FFFFFF;
     }
-    .prava2 a:hover{
+
+    .prava2 a:hover {
         color: #5f9266;
     }
+
     .osn_navigation {
         display: flex;
         flex-direction: row;
@@ -703,6 +756,7 @@ font-family:Georgia, 'Times New Roman', Times, serif;
         height: 100px;
         margin-right: 10px;
     }
+
     .osn_navigation a {
         text-decoration: none;
         width: 50px;
@@ -714,12 +768,14 @@ font-family:Georgia, 'Times New Roman', Times, serif;
         line-height: 24px;
         color: #FFFFFF;
     }
+
     .osn_navigation a:hover {
         font-size: 24px;
         color: #5f9266;
     }
 }
-@media screen and (max-width: 768px){
+
+@media screen and (max-width: 768px) {
     .header {
         display: flex;
         flex-direction: row;
@@ -730,7 +786,7 @@ font-family:Georgia, 'Times New Roman', Times, serif;
         background: #403C3B;
         box-shadow: 0px 30px 60px rgba(34, 31, 32, 0.2);
     }
-    
+
     .LaVue {
         width: 100px;
         height: 25px;
@@ -742,46 +798,56 @@ font-family:Georgia, 'Times New Roman', Times, serif;
         font-size: 40px;
         line-height: 25px;
         letter-spacing: 0.15em;
-        color:#5f9266;
+        color: #5f9266;
     }
+
     .paspologenie {
         position: relative;
-    }   
+    }
+
     .adrres {
-        display: none;   
-    }   
+        display: none;
+    }
+
     .lupa {
         display: none;
     }
+
     .znachok_paspologenie {
-       display: none;
-    }   
+        display: none;
+    }
+
     .pozvonit {
         display: flex;
         flex-direction: row;
         margin-left: 40px;
     }
+
     .pozvonit img {
         display: none;
-    } 
+    }
+
     .pozvonit_phone {
         display: flex;
         flex-direction: column;
         margin-left: 25px;
     }
+
     .pozvonit_phone_kontakt {
         margin-top: 20px;
         font-style: normal;
         font-size: 25px;
         line-height: 20px;
         color: #CFCFCF;
-    } 
+    }
+
     .pozvonit_phone_tel {
         color: white;
         margin-top: -15px;
         font-weight: 400;
         font-size: 20px;
     }
+
     .korzina_header {
         display: flex;
         flex-direction: row;
@@ -791,7 +857,8 @@ font-family:Georgia, 'Times New Roman', Times, serif;
         width: 109px;
         margin-left: 40px;
     }
-    .korzina_header_nadpis{
+
+    .korzina_header_nadpis {
         border-right: none;
         width: 70px;
         padding-right: 5px;
@@ -800,23 +867,27 @@ font-family:Georgia, 'Times New Roman', Times, serif;
         font-size: 25px;
         margin-top: 0px;
     }
-    .korzina_header img{
+
+    .korzina_header img {
         display: none;
     }
-    .korzina:hover{
+
+    .korzina:hover {
         background: #315336;
         text-decoration: underline;
         width: 157px;
         height: 55px;
-    } 
+    }
+
     .uslovia_dostavki {
         background: linear-gradient(360deg, #211F20 0%, #44403F 100%);
         height: 1550px;
     }
-    .pereiti_k_vibory{
+
+    .pereiti_k_vibory {
         display: none;
     }
-    
+
     .uslovia_dostavki h1 {
         margin-top: 30px;
         margin-left: 20px;
@@ -825,26 +896,29 @@ font-family:Georgia, 'Times New Roman', Times, serif;
         text-transform: uppercase;
         color: #FFFFFF;
     }
-    .page{
+
+    .page {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .about{
+
+    .about {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    .main_inf_about_dostavka{
+
+    .main_inf_about_dostavka {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         margin-left: 5px;
     }
-    
-    
+
+
     .lbl-conditions {
         border: 1px solid black;
         width: 400px;
@@ -856,56 +930,62 @@ font-family:Georgia, 'Times New Roman', Times, serif;
         font-size: 23px;
         padding-left: 20px;
         padding-top: 15px;
-        font-family:Georgia, 'Times New Roman', Times, serif;
-      }
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
 
-      .text-for-conditions{
-          height: 235px;
-          width: 390px;
-          background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
-    border-radius: 10px;
-    font-size: 23px;
-    color: rgb(238, 236, 236);
-    margin-top: 10px;
-    padding-top: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-      }
-      .karta{
-          margin-left: 5px;
-          margin-top: 55px;
-          width: 418px;
-          height: 300px;
-      }
-      .grafik_raboti{
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          color: whitesmoke;
-          font-size: 21px;
-          margin-top: 15px;
-          margin-left: 50px;
-          font-family: Georgia, 'Times New Roman', Times, serif;
-      }
-      .grafik_raboti_restorana{
-          margin-left: 10px;
-      }
-      .min_zakaz_nazvanie{
-          color: whitesmoke;
-          font-size: 21px;
-          font-family: Georgia, 'Times New Roman', Times, serif;
-          margin-left: 5px;
-          margin-top: 30px;
-      }
-      .min_zakaz{
+    .text-for-conditions {
+        height: 235px;
+        width: 390px;
+        background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
+        border-radius: 10px;
+        font-size: 23px;
+        color: rgb(238, 236, 236);
+        margin-top: 10px;
+        padding-top: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .karta {
+        margin-left: 5px;
+        margin-top: 55px;
+        width: 418px;
+        height: 300px;
+    }
+
+    .grafik_raboti {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: whitesmoke;
+        font-size: 21px;
+        margin-top: 15px;
+        margin-left: 50px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .grafik_raboti_restorana {
+        margin-left: 10px;
+    }
+
+    .min_zakaz_nazvanie {
+        color: whitesmoke;
+        font-size: 21px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-left: 5px;
+        margin-top: 30px;
+    }
+
+    .min_zakaz {
         color: whitesmoke;
         font-size: 21px;
         font-family: Georgia, 'Times New Roman', Times, serif;
         margin-left: 70px;
         width: 430px;
-      }
-      .footer {
+    }
+
+    .footer {
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -915,6 +995,7 @@ font-family:Georgia, 'Times New Roman', Times, serif;
         height: 145px;
         position: relative;
     }
+
     .vverx {
         position: absolute;
         top: 51px;
@@ -922,21 +1003,25 @@ font-family:Georgia, 'Times New Roman', Times, serif;
         width: 44px;
         height: 44px;
     }
-    .vverx:hover{
+
+    .vverx:hover {
         position: absolute;
         top: 46px;
         left: 35px;
         width: 70px;
         height: 70px;
     }
+
     .foorer_container {
         display: flex;
         flex-direction: row;
         margin-left: 129px;
-    }   
+    }
+
     .footer_inf {
         display: none;
-    }  
+    }
+
     .LOGOS2 {
         font-style: normal;
         font-size: 35px;
@@ -944,6 +1029,7 @@ font-family:Georgia, 'Times New Roman', Times, serif;
         letter-spacing: 0.15em;
         color: #5f9266;
     }
+
     .prava {
         margin-top: -10px;
         width: 200px;
@@ -953,6 +1039,7 @@ font-family:Georgia, 'Times New Roman', Times, serif;
         line-height: 14px;
         color: #CFCFCF;
     }
+
     .prava2 {
         list-style-type: none;
         text-decoration: underline;
@@ -964,12 +1051,15 @@ font-family:Georgia, 'Times New Roman', Times, serif;
         line-height: 16px;
         color: #FFFFFF;
     }
-    .prava2 a{
+
+    .prava2 a {
         color: #FFFFFF;
     }
-    .prava2 a:hover{
+
+    .prava2 a:hover {
         color: #5f9266;
     }
+
     .osn_navigation {
         display: flex;
         flex-direction: row;
@@ -980,7 +1070,7 @@ font-family:Georgia, 'Times New Roman', Times, serif;
         height: 100px;
         margin-right: 10px;
     }
-    
+
     .osn_navigation a {
         text-decoration: none;
         width: 50px;
@@ -992,22 +1082,25 @@ font-family:Georgia, 'Times New Roman', Times, serif;
         line-height: 20px;
         color: #FFFFFF;
     }
+
     .osn_navigation a:hover {
         font-size: 24px;
         color: #5f9266;
     }
 }
-@media screen and (max-width: 500px){
+
+@media screen and (max-width: 500px) {
     .header {
         display: flex;
         flex-direction: row;
-        justify-content:space-between;
+        justify-content: space-between;
         align-items: center;
         height: 99px;
         width: 100%;
         background: #403C3B;
         box-shadow: 0px 30px 60px rgba(34, 31, 32, 0.2);
-    } 
+    }
+
     .LaVue {
         width: 100px;
         height: 25px;
@@ -1019,45 +1112,55 @@ font-family:Georgia, 'Times New Roman', Times, serif;
         font-size: 45px;
         line-height: 25px;
         letter-spacing: 0.15em;
-        color:#5f9266;
+        color: #5f9266;
         margin-right: 20px;
     }
+
     .paspologenie {
         position: relative;
     }
+
     .adrres {
         display: none;
     }
+
     .lupa {
         display: none;
-    } 
+    }
+
     .znachok_paspologenie {
-       display: none;
+        display: none;
     }
+
     .pozvonit {
-       display: none;
+        display: none;
     }
+
     .pozvonit img {
         display: none;
     }
+
     .pozvonit_phone {
         display: flex;
         flex-direction: column;
         margin-left: 25px;
-    }  
+    }
+
     .pozvonit_phone_kontakt {
         margin-top: 20px;
         font-style: normal;
         font-size: 25px;
         line-height: 20px;
         color: #CFCFCF;
-    }  
+    }
+
     .pozvonit_phone_tel {
         color: white;
         margin-top: -15px;
         font-weight: 400;
         font-size: 20px;
-    } 
+    }
+
     .korzina_header {
         display: flex;
         flex-direction: row;
@@ -1068,7 +1171,8 @@ font-family:Georgia, 'Times New Roman', Times, serif;
         margin-left: 60px;
         margin-right: 10px;
     }
-    .korzina_header_nadpis{
+
+    .korzina_header_nadpis {
         border-right: none;
         width: 70px;
         padding-right: 15px;
@@ -1078,7 +1182,8 @@ font-family:Georgia, 'Times New Roman', Times, serif;
         padding-top: 10px;
         margin-top: 0px;
     }
-    .korzina_header img{
+
+    .korzina_header img {
         display: none;
     }
 
@@ -1086,10 +1191,11 @@ font-family:Georgia, 'Times New Roman', Times, serif;
         background: linear-gradient(360deg, #211F20 0%, #44403F 100%);
         height: 1900px;
     }
-    .pereiti_k_vibory{
+
+    .pereiti_k_vibory {
         display: none;
     }
-    
+
     .uslovia_dostavki h1 {
         margin-top: 30px;
         margin-left: 20px;
@@ -1098,25 +1204,28 @@ font-family:Georgia, 'Times New Roman', Times, serif;
         text-transform: uppercase;
         color: #FFFFFF;
     }
-    .page{
+
+    .page {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .about{
+
+    .about {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    .main_inf_about_dostavka{
+
+    .main_inf_about_dostavka {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         margin-left: 5px;
     }
- 
+
     .lbl-conditions {
         border: 1px solid black;
         width: 330px;
@@ -1129,57 +1238,63 @@ font-family:Georgia, 'Times New Roman', Times, serif;
         text-align: center;
         padding-left: 10px;
         padding-top: 15px;
-        font-family:Georgia, 'Times New Roman', Times, serif;
-      }
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
 
-      .text-for-conditions{
-          height: 405px;
-          width: 310px;
-          background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
-    border-radius: 10px;
-    font-size: 27px;
-    color: rgb(238, 236, 236);
-    margin-top: 10px;
-    padding-top: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-      }
-      .karta{
-          margin-left: 5px;
-          margin-top: 55px;
-          width: 320px;
-          height: 250px;
-      }
-      .grafik_raboti{
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          color: whitesmoke;
-          font-size: 26px;
-          margin-top: 15px;
-          margin-left: 5px;
-          font-family: Georgia, 'Times New Roman', Times, serif;
-      }
-      .grafik_raboti_restorana{
-          margin-left: 10px;
-      }
-      .min_zakaz_nazvanie{
-          color: whitesmoke;
-          font-size: 26px;
-          font-family: Georgia, 'Times New Roman', Times, serif;
-          margin-left: -45px;
-          margin-top: 30px;
-      }
-      .min_zakaz{
+    .text-for-conditions {
+        height: 405px;
+        width: 310px;
+        background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
+        border-radius: 10px;
+        font-size: 27px;
+        color: rgb(238, 236, 236);
+        margin-top: 10px;
+        padding-top: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .karta {
+        margin-left: 5px;
+        margin-top: 55px;
+        width: 320px;
+        height: 250px;
+    }
+
+    .grafik_raboti {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: whitesmoke;
+        font-size: 26px;
+        margin-top: 15px;
+        margin-left: 5px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .grafik_raboti_restorana {
+        margin-left: 10px;
+    }
+
+    .min_zakaz_nazvanie {
+        color: whitesmoke;
+        font-size: 26px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-left: -45px;
+        margin-top: 30px;
+    }
+
+    .min_zakaz {
         color: whitesmoke;
         font-size: 28px;
         font-family: Georgia, 'Times New Roman', Times, serif;
         margin-left: 70px;
         width: 320px;
         margin-left: 5px;
-      }
-      .footer {
+    }
+
+    .footer {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -1189,6 +1304,7 @@ font-family:Georgia, 'Times New Roman', Times, serif;
         height: 145px;
         position: relative;
     }
+
     .vverx {
         position: absolute;
         top: 41px;
@@ -1196,28 +1312,33 @@ font-family:Georgia, 'Times New Roman', Times, serif;
         width: 64px;
         height: 64px;
     }
-    .vverx:hover{
+
+    .vverx:hover {
         position: absolute;
         top: 46px;
         left: 35px;
         width: 70px;
         height: 70px;
     }
+
     .foorer_container {
         display: flex;
         flex-direction: row;
         margin-left: 129px;
     }
+
     .footer_inf {
         display: none;
     }
+
     .LOGOS2 {
         font-style: normal;
         font-size: 35px;
         line-height: 25px;
         letter-spacing: 0.15em;
         color: #5f9266;
-    }  
+    }
+
     .prava {
         margin-top: -10px;
         width: 200px;
@@ -1226,7 +1347,8 @@ font-family:Georgia, 'Times New Roman', Times, serif;
         font-size: 13px;
         line-height: 14px;
         color: #CFCFCF;
-    } 
+    }
+
     .prava2 {
         list-style-type: none;
         text-decoration: underline;
@@ -1238,12 +1360,15 @@ font-family:Georgia, 'Times New Roman', Times, serif;
         line-height: 16px;
         color: #FFFFFF;
     }
-    .prava2 a{
+
+    .prava2 a {
         color: #FFFFFF;
     }
-    .prava2 a:hover{
+
+    .prava2 a:hover {
         color: #5f9266;
     }
+
     .osn_navigation {
         display: flex;
         flex-direction: column;
@@ -1254,6 +1379,7 @@ font-family:Georgia, 'Times New Roman', Times, serif;
         height: 100px;
         margin-right: 10px;
     }
+
     .osn_navigation a {
         text-decoration: none;
         width: 50px;
@@ -1265,6 +1391,7 @@ font-family:Georgia, 'Times New Roman', Times, serif;
         line-height: 20px;
         color: #FFFFFF;
     }
+
     .osn_navigation a:hover {
         font-size: 24px;
         color: #5f9266;

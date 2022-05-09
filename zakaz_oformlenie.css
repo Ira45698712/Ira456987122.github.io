@@ -22,7 +22,7 @@ body {
     font-size: 40px;
     line-height: 25px;
     letter-spacing: 0.15em;
-    color:#5f9266;
+    color: #5f9266;
 }
 
 .paspologenie {
@@ -72,7 +72,8 @@ body {
     height: 40px;
     margin-top: 28px;
 }
-.pozvonit img:hover{
+
+.pozvonit img:hover {
     border: solid 1px #5f9266;
 }
 
@@ -81,9 +82,11 @@ body {
     flex-direction: column;
     margin-left: 20px;
 }
+
 .pozvonit_phone_tel:hover {
     text-decoration: underline;
 }
+
 .pozvonit_phone_kontakt {
     margin-top: 28px;
     font-style: normal;
@@ -109,7 +112,8 @@ body {
     margin-left: 210px;
     margin-top: 25px;
 }
-.korzina_header_nadpis{
+
+.korzina_header_nadpis {
     border-right: solid 1px rgb(11, 2, 2);
     width: 70px;
     padding-bottom: 10px;
@@ -118,13 +122,15 @@ body {
     color: white;
     font-size: 17px;
 }
-.korzina_header img{
+
+.korzina_header img {
     width: 32px;
     height: 32px;
     margin-left: 8px;
     margin-top: 10px;
 }
-.korzina_header:hover{
+
+.korzina_header:hover {
     background: #315336;
     text-decoration: underline;
     width: 157px;
@@ -285,7 +291,8 @@ ul li a:hover {
     border-radius: 10px;
     margin-left: 50px;
 }
-.pole_adress{
+
+.pole_adress {
     background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
     border-radius: 10px;
     width: 413px;
@@ -293,7 +300,8 @@ ul li a:hover {
     font-size: 17px;
     padding-left: 15px;
 }
-.pole_dom{
+
+.pole_dom {
     background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
     border-radius: 10px;
     width: 173px;
@@ -302,7 +310,8 @@ ul li a:hover {
     font-size: 17px;
     padding-left: 15px;
 }
-.pole_kvartira{
+
+.pole_kvartira {
     background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
     border-radius: 10px;
     width: 208px;
@@ -311,7 +320,8 @@ ul li a:hover {
     margin-top: 15px;
     padding-left: 15px;
 }
-.pole_podezd{
+
+.pole_podezd {
     background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
     border-radius: 10px;
     width: 173px;
@@ -319,9 +329,10 @@ ul li a:hover {
     margin-left: 5px;
     font-size: 17px;
     padding-left: 15px;
-    margin-top: 15px; 
+    margin-top: 15px;
 }
-.pole_etash{
+
+.pole_etash {
     background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
     border-radius: 10px;
     width: 173px;
@@ -330,15 +341,17 @@ ul li a:hover {
     font-size: 17px;
     padding-left: 15px;
 }
-.pole_komment{
+
+.pole_komment {
     background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
     border-radius: 10px;
     width: 604px;
     height: 60px;
-   margin-top: 15px;
+    margin-top: 15px;
     font-size: 17px;
     padding-left: 15px;
 }
+
 .kontakt_inf3 {
     margin-left: 150px;
     background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
@@ -346,11 +359,13 @@ ul li a:hover {
     width: 800px;
     height: 280px;
 }
+
 .kontakt_inf3 h2 {
     color: white;
     font-size: 20px;
     margin-left: 50px;
 }
+
 .sposob_oplati {
     width: 263px;
     height: 60px;
@@ -363,6 +378,7 @@ ul li a:hover {
     width: 285px;
     border-radius: 10px;
 }
+
 .sposob_oplati_onlain {
     background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
     border: 1px solid #72A479;
@@ -385,7 +401,8 @@ ul li a:hover {
     padding-top: 5px;
     font-size: 18px;
 }
-.sposob_oplati_nalichka{
+
+.sposob_oplati_nalichka {
     background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
     border-radius: 0px 10px 10px 0px;
     border: 1px solid #72A479;
@@ -395,19 +412,23 @@ ul li a:hover {
     padding-top: 5px;
     font-size: 18px;
 }
+
 .sposob_oplati_onlain:focus {
     background: #618967;
     caret-color: transparent !important;
 }
+
 .sposob_oplati_karta:focus {
     background: #618967;
     caret-color: transparent !important;
 }
+
 .sposob_oplati_nalichka:focus {
     background: #618967;
     caret-color: transparent !important;
 }
-.sdacha{
+
+.sdacha {
     background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
     border-radius: 10px;
     width: 173px;
@@ -426,11 +447,13 @@ ul li a:hover {
     width: 800px;
     height: 370px;
 }
+
 .kontakt_inf4 h2 {
     color: white;
     font-size: 20px;
     margin-left: 50px;
 }
+
 .kogda_dostavka {
     width: 263px;
     height: 60px;
@@ -443,6 +466,7 @@ ul li a:hover {
     width: 285px;
     border-radius: 10px;
 }
+
 .skoro {
     background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
     border: 1px solid #72A479;
@@ -456,7 +480,7 @@ ul li a:hover {
     font-size: 18px;
 }
 
-.ko_vremeni{
+.ko_vremeni {
     background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
     border-radius: 0px 10px 10px 0px;
     border: 1px solid #72A479;
@@ -467,15 +491,18 @@ ul li a:hover {
     padding-top: 5px;
     font-size: 18px;
 }
+
 .skoro:focus {
     background: #618967;
     caret-color: transparent !important;
 }
+
 .ko_vremeni:focus {
     background: #618967;
     caret-color: transparent !important;
 }
-.vrema_kogda{
+
+.vrema_kogda {
     background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
     border-radius: 10px;
     width: 173px;
@@ -484,7 +511,8 @@ ul li a:hover {
     padding-left: 15px;
     font-size: 17px;
 }
-.kol_person{
+
+.kol_person {
     background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
     border-radius: 10px;
     width: 173px;
@@ -493,21 +521,25 @@ ul li a:hover {
     padding-left: 15px;
     font-size: 17px;
 }
-.perezvon{
+
+.perezvon {
     margin-top: 20px;
     color: white;
     margin-left: 50px;
     font-size: 18px;
-    line-height: 19px;  
+    line-height: 19px;
 }
-.radio{
+
+.radio {
     color: white;
     margin-left: 50px;
 }
-.radioo{
+
+.radioo {
     color: white;
     font-size: 16px;
 }
+
 .kontakt_inf5 {
     margin-left: 150px;
     background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
@@ -518,14 +550,16 @@ ul li a:hover {
     margin-top: 20px;
     flex-direction: row;
 }
-.checkbox_s{
+
+.checkbox_s {
     margin-top: 1px;
-    padding-top:40px;
+    padding-top: 40px;
     font-size: 15px;
     color: white;
     margin-left: 50px;
 }
-.knopka_oform{
+
+.knopka_oform {
     margin-top: 22px;
     margin-left: 40px;
     height: 35px;
@@ -538,10 +572,12 @@ ul li a:hover {
     background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
     border-radius: 10px;
 }
-.knopka_oform:hover{
+
+.knopka_oform:hover {
     text-transform: uppercase;
     background: #315336;
 }
+
 .footer {
     width: 100%;
     background: linear-gradient(270.7deg, #44403F 0.4%, #211F20 100%);
@@ -556,13 +592,15 @@ ul li a:hover {
     width: 64px;
     height: 64px;
 }
-.vverx:hover{
+
+.vverx:hover {
     position: absolute;
     top: 46px;
     left: 35px;
     width: 70px;
     height: 70px;
 }
+
 .foorer_container {
     display: flex;
     flex-direction: row;
@@ -602,12 +640,15 @@ ul li a:hover {
     line-height: 16px;
     color: #FFFFFF;
 }
-.prava2 a{
+
+.prava2 a {
     color: #FFFFFF;
 }
-.prava2 a:hover{
+
+.prava2 a:hover {
     color: #5f9266;
 }
+
 .osn_navigation {
     display: flex;
     flex-direction: row;
@@ -626,11 +667,13 @@ ul li a:hover {
     line-height: 24px;
     color: #FFFFFF;
 }
+
 .osn_navigation a:hover {
     font-size: 24px;
     color: #5f9266;
 }
-@media screen and (max-width: 1350px){
+
+@media screen and (max-width: 1350px) {
     .header {
         display: flex;
         flex-direction: row;
@@ -641,7 +684,7 @@ ul li a:hover {
         background: #403C3B;
         box-shadow: 0px 30px 60px rgba(34, 31, 32, 0.2);
     }
-    
+
     .LaVue {
         width: 100px;
         height: 25px;
@@ -653,13 +696,13 @@ ul li a:hover {
         font-size: 40px;
         line-height: 25px;
         letter-spacing: 0.15em;
-        color:#5f9266;
+        color: #5f9266;
     }
-    
+
     .paspologenie {
         position: relative;
     }
-    
+
     .adrres {
         background-color: #504B4A;
         font-family: 'Gilroy';
@@ -669,47 +712,47 @@ ul li a:hover {
         font-weight: 400;
         font-size: 18px;
         line-height: 21px;
-        margin-left:50px;
+        margin-left: 50px;
         margin-top: 5px;
         border-radius: 5px;
         padding-left: 30px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
+
     }
-    
+
     .lupa {
         position: absolute;
         right: 12px;
         top: 15px;
         width: 19px;
     }
-    
+
     .znachok_paspologenie {
         position: absolute;
         left: 55px;
         top: 13px;
         width: 25px;
     }
-    
-    
+
+
     .pozvonit {
         display: flex;
         flex-direction: row;
         margin-left: 40px;
     }
-    
+
     .pozvonit img {
         width: 30px;
         height: 30px;
         margin-top: 28px;
     }
-    
+
     .pozvonit_phone {
         display: flex;
         flex-direction: column;
         margin-left: 20px;
     }
-    
+
     .pozvonit_phone_kontakt {
         margin-top: 20px;
         font-style: normal;
@@ -717,14 +760,14 @@ ul li a:hover {
         line-height: 20px;
         color: #CFCFCF;
     }
-    
+
     .pozvonit_phone_tel {
         color: white;
         margin-top: -15px;
         font-weight: 400;
         font-size: 17px;
     }
-    
+
     .korzina_header {
         display: flex;
         flex-direction: row;
@@ -735,7 +778,8 @@ ul li a:hover {
         margin-left: 40px;
         margin-top: 10px;
     }
-    .korzina_header_nadpis{
+
+    .korzina_header_nadpis {
         border-right: solid 1px rgb(11, 2, 2);
         width: 70px;
         padding-bottom: 10px;
@@ -744,18 +788,21 @@ ul li a:hover {
         color: white;
         font-size: 17px;
     }
-    .korzina_header img{
+
+    .korzina_header img {
         width: 32px;
         height: 32px;
         margin-left: 8px;
         margin-top: 10px;
     }
-    .korzina:hover{
+
+    .korzina:hover {
         background: #315336;
         text-decoration: underline;
         width: 157px;
         height: 55px;
-    }  
+    }
+
     .menu_ssilki {
         margin: 0;
         background-color: #403C3B;
@@ -764,7 +811,7 @@ ul li a:hover {
         flex-direction: column;
         border-bottom: solid 1px rgba(255, 255, 255, 0.08);
     }
-    
+
     .menu {
         font-family: 'Radio Canada', sans-serif;
         display: flex;
@@ -786,6 +833,7 @@ ul li a:hover {
         list-style-type: none;
         padding-top: 20px;
     }
+
     .oformlenie {
         background: linear-gradient(360deg, #211F20 0%, #44403F 100%);
         height: 1900px;
@@ -793,10 +841,12 @@ ul li a:hover {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    }    
-    .pereiti_k_vibory{
+    }
+
+    .pereiti_k_vibory {
         display: none;
     }
+
     .oformlenie h1 {
         margin-top: 60px;
         margin-left: 30px;
@@ -804,19 +854,22 @@ ul li a:hover {
         border-left: solid #618967 3px;
         text-transform: uppercase;
         color: #FFFFFF;
-    } 
+    }
+
     .kontakt_inf {
         margin-left: 30px;
         background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
         border-radius: 10px;
         width: 700px;
         height: 350px;
-    }  
+    }
+
     .kontakt_inf h2 {
         color: white;
         font-size: 28px;
         margin-left: 50px;
     }
+
     .pole {
         margin-left: 50px;
         margin-top: 25px;
@@ -829,19 +882,21 @@ ul li a:hover {
         height: 60px;
         font-size: 20px;
     }
-    
+
     .kontakt_inf2 {
         margin-left: 30px;
         background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
         border-radius: 10px;
         width: 700px;
         height: 480px;
-    }    
+    }
+
     .kontakt_inf2 h2 {
         color: white;
         font-size: 28px;
         margin-left: 50px;
-    } 
+    }
+
     .sposob_dostavki {
         width: 263px;
         height: 60px;
@@ -852,9 +907,9 @@ ul li a:hover {
         display: flex;
         flex-direction: row;
         width: 285px;
-        border-radius: 10px;   
+        border-radius: 10px;
     }
-   
+
     .sposob_dostavki_dostavka {
         background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
         border-radius: 10px 0px 0px 10px;
@@ -864,7 +919,8 @@ ul li a:hover {
         color: white;
         padding-top: 5px;
         font-size: 18px;
-    }   
+    }
+
     .sposob_dostavki_samovivoz {
         background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
         border-radius: 0px 10px 10px 0px;
@@ -874,20 +930,24 @@ ul li a:hover {
         padding-top: 5px;
         font-size: 18px;
     }
+
     .sposob_dostavki_dostavka:focus {
         background: #618967;
         caret-color: transparent !important;
     }
+
     .sposob_dostavki_samovivoz:focus {
         background: #618967;
         caret-color: transparent !important;
-    }  
+    }
+
     .pola_for_zapolnenia {
         background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
         border-radius: 10px;
         margin-left: 50px;
     }
-    .pole_adress{
+
+    .pole_adress {
         background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
         border-radius: 10px;
         width: 413px;
@@ -895,7 +955,8 @@ ul li a:hover {
         font-size: 20px;
         padding-left: 15px;
     }
-    .pole_dom{
+
+    .pole_dom {
         background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
         border-radius: 10px;
         width: 173px;
@@ -904,7 +965,8 @@ ul li a:hover {
         font-size: 20px;
         padding-left: 15px;
     }
-    .pole_kvartira{
+
+    .pole_kvartira {
         background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
         border-radius: 10px;
         width: 208px;
@@ -913,7 +975,8 @@ ul li a:hover {
         margin-top: 15px;
         padding-left: 15px;
     }
-    .pole_podezd{
+
+    .pole_podezd {
         background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
         border-radius: 10px;
         width: 173px;
@@ -921,9 +984,10 @@ ul li a:hover {
         margin-left: 5px;
         font-size: 20px;
         padding-left: 15px;
-        margin-top: 15px; 
+        margin-top: 15px;
     }
-    .pole_etash{
+
+    .pole_etash {
         background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
         border-radius: 10px;
         width: 173px;
@@ -932,15 +996,17 @@ ul li a:hover {
         font-size: 20px;
         padding-left: 15px;
     }
-    .pole_komment{
+
+    .pole_komment {
         background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
         border-radius: 10px;
         width: 604px;
         height: 60px;
-       margin-top: 15px;
+        margin-top: 15px;
         font-size: 20px;
         padding-left: 15px;
     }
+
     .kontakt_inf3 {
         margin-left: 30px;
         background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
@@ -948,11 +1014,13 @@ ul li a:hover {
         width: 700px;
         height: 280px;
     }
+
     .kontakt_inf3 h2 {
         color: white;
         font-size: 28px;
         margin-left: 50px;
     }
+
     .sposob_oplati {
         width: 263px;
         height: 60px;
@@ -965,6 +1033,7 @@ ul li a:hover {
         width: 285px;
         border-radius: 10px;
     }
+
     .sposob_oplati_onlain {
         background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
         border: 1px solid #72A479;
@@ -976,7 +1045,7 @@ ul li a:hover {
         padding-top: 5px;
         font-size: 18px;
     }
-    
+
     .sposob_oplati_karta {
         background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
         border-radius: 0px 0px 0px 0px;
@@ -987,7 +1056,8 @@ ul li a:hover {
         padding-top: 5px;
         font-size: 18px;
     }
-    .sposob_oplati_nalichka{
+
+    .sposob_oplati_nalichka {
         background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
         border-radius: 0px 10px 10px 0px;
         border: 1px solid #72A479;
@@ -997,19 +1067,23 @@ ul li a:hover {
         padding-top: 5px;
         font-size: 18px;
     }
+
     .sposob_oplati_onlain:focus {
         background: #618967;
         caret-color: transparent !important;
     }
+
     .sposob_oplati_karta:focus {
         background: #618967;
         caret-color: transparent !important;
     }
+
     .sposob_oplati_nalichka:focus {
         background: #618967;
         caret-color: transparent !important;
     }
-    .sdacha{
+
+    .sdacha {
         background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
         border-radius: 10px;
         width: 173px;
@@ -1018,6 +1092,7 @@ ul li a:hover {
         padding-left: 15px;
         font-size: 20px;
     }
+
     .kontakt_inf4 {
         margin-left: 30px;
         background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
@@ -1025,11 +1100,13 @@ ul li a:hover {
         width: 700px;
         height: 370px;
     }
+
     .kontakt_inf4 h2 {
         color: white;
         font-size: 28px;
         margin-left: 50px;
     }
+
     .kogda_dostavka {
         width: 263px;
         height: 60px;
@@ -1042,6 +1119,7 @@ ul li a:hover {
         width: 285px;
         border-radius: 10px;
     }
+
     .skoro {
         background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
         border: 1px solid #72A479;
@@ -1054,7 +1132,8 @@ ul li a:hover {
         padding-top: 5px;
         font-size: 18px;
     }
-    .ko_vremeni{
+
+    .ko_vremeni {
         background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
         border-radius: 0px 10px 10px 0px;
         border: 1px solid #72A479;
@@ -1065,15 +1144,18 @@ ul li a:hover {
         padding-top: 5px;
         font-size: 18px;
     }
+
     .skoro:focus {
         background: #618967;
         caret-color: transparent !important;
     }
+
     .ko_vremeni:focus {
         background: #618967;
         caret-color: transparent !important;
     }
-    .vrema_kogda{
+
+    .vrema_kogda {
         background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
         border-radius: 10px;
         width: 173px;
@@ -1082,7 +1164,8 @@ ul li a:hover {
         padding-left: 15px;
         font-size: 20px;
     }
-    .kol_person{
+
+    .kol_person {
         background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
         border-radius: 10px;
         width: 173px;
@@ -1091,21 +1174,25 @@ ul li a:hover {
         padding-left: 15px;
         font-size: 20px;
     }
-    .perezvon{
+
+    .perezvon {
         margin-top: 20px;
         color: white;
         margin-left: 50px;
         font-size: 18px;
-        line-height: 19px;  
+        line-height: 19px;
     }
-    .radio{
+
+    .radio {
         color: white;
         margin-left: 50px;
     }
-    .radioo{
+
+    .radioo {
         color: white;
         font-size: 20px;
     }
+
     .kontakt_inf5 {
         margin-left: 30px;
         background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
@@ -1116,14 +1203,16 @@ ul li a:hover {
         margin-top: 20px;
         flex-direction: row;
     }
-    .checkbox_s{
+
+    .checkbox_s {
         margin-top: 1px;
-        padding-top:40px;
+        padding-top: 40px;
         font-size: 15px;
         color: white;
         margin-left: 50px;
     }
-    .knopka_oform{
+
+    .knopka_oform {
         margin-top: 22px;
         margin-left: 20px;
         margin-right: 10px;
@@ -1137,10 +1226,12 @@ ul li a:hover {
         background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
         border-radius: 10px;
     }
-    .knopka_oform:hover{
+
+    .knopka_oform:hover {
         text-transform: uppercase;
         background: #315336;
     }
+
     .footer {
         display: flex;
         flex-direction: row;
@@ -1151,7 +1242,7 @@ ul li a:hover {
         height: 195px;
         position: relative;
     }
-    
+
     .vverx {
         position: absolute;
         top: 51px;
@@ -1159,30 +1250,35 @@ ul li a:hover {
         width: 44px;
         height: 44px;
     }
-    .vverx:hover{
+
+    .vverx:hover {
         position: absolute;
         top: 46px;
         left: 35px;
         width: 70px;
         height: 70px;
     }
+
     .foorer_container {
         display: flex;
         flex-direction: row;
         margin-left: 159px;
-    }    
+    }
+
     .footer_inf {
         display: flex;
         flex-direction: column;
         color: white;
-    }  
+    }
+
     .LOGOS2 {
         font-style: normal;
         font-size: 35px;
         line-height: 25px;
         letter-spacing: 0.15em;
         color: #5f9266;
-    }  
+    }
+
     .prava {
         margin-top: -10px;
         width: 200px;
@@ -1191,7 +1287,8 @@ ul li a:hover {
         font-size: 13px;
         line-height: 14px;
         color: #CFCFCF;
-    } 
+    }
+
     .prava2 {
         list-style-type: none;
         text-decoration: underline;
@@ -1203,12 +1300,15 @@ ul li a:hover {
         line-height: 16px;
         color: #FFFFFF;
     }
-    .prava2 a{
+
+    .prava2 a {
         color: #FFFFFF;
     }
-    .prava2 a:hover{
+
+    .prava2 a:hover {
         color: #5f9266;
     }
+
     .osn_navigation {
         display: flex;
         flex-direction: row;
@@ -1218,7 +1318,8 @@ ul li a:hover {
         margin-top: 20px;
         height: 100px;
         margin-right: 10px;
-    } 
+    }
+
     .osn_navigation a {
         text-decoration: none;
         width: 50px;
@@ -1230,12 +1331,14 @@ ul li a:hover {
         line-height: 24px;
         color: #FFFFFF;
     }
+
     .osn_navigation a:hover {
         font-size: 24px;
         color: #5f9266;
     }
 }
-@media screen and (max-width: 768px){
+
+@media screen and (max-width: 768px) {
     .header {
         display: flex;
         flex-direction: row;
@@ -1246,7 +1349,7 @@ ul li a:hover {
         background: #403C3B;
         box-shadow: 0px 30px 60px rgba(34, 31, 32, 0.2);
     }
-    
+
     .LaVue {
         width: 100px;
         height: 25px;
@@ -1258,46 +1361,56 @@ ul li a:hover {
         font-size: 40px;
         line-height: 25px;
         letter-spacing: 0.15em;
-        color:#5f9266;
+        color: #5f9266;
     }
+
     .paspologenie {
         position: relative;
-    }   
+    }
+
     .adrres {
-        display: none;   
-    }   
+        display: none;
+    }
+
     .lupa {
         display: none;
     }
+
     .znachok_paspologenie {
-       display: none;
-    }   
+        display: none;
+    }
+
     .pozvonit {
         display: flex;
         flex-direction: row;
         margin-left: 40px;
     }
+
     .pozvonit img {
         display: none;
-    } 
+    }
+
     .pozvonit_phone {
         display: flex;
         flex-direction: column;
         margin-left: 25px;
     }
+
     .pozvonit_phone_kontakt {
         margin-top: 20px;
         font-style: normal;
         font-size: 25px;
         line-height: 20px;
         color: #CFCFCF;
-    } 
+    }
+
     .pozvonit_phone_tel {
         color: white;
         margin-top: -15px;
         font-weight: 400;
         font-size: 20px;
     }
+
     .korzina_header {
         display: flex;
         flex-direction: row;
@@ -1307,7 +1420,8 @@ ul li a:hover {
         width: 109px;
         margin-left: 40px;
     }
-    .korzina_header_nadpis{
+
+    .korzina_header_nadpis {
         border-right: none;
         width: 70px;
         padding-right: 5px;
@@ -1316,15 +1430,18 @@ ul li a:hover {
         font-size: 25px;
         margin-top: 0px;
     }
-    .korzina_header img{
+
+    .korzina_header img {
         display: none;
     }
-    .korzina:hover{
+
+    .korzina:hover {
         background: #315336;
         text-decoration: underline;
         width: 157px;
         height: 55px;
-    } 
+    }
+
     .oformlenie {
         background: linear-gradient(360deg, #211F20 0%, #44403F 100%);
         height: 2150px;
@@ -1332,10 +1449,12 @@ ul li a:hover {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    }  
-    .pereiti_k_vibory{
+    }
+
+    .pereiti_k_vibory {
         display: none;
     }
+
     .oformlenie h1 {
         margin-top: 60px;
         margin-left: 30px;
@@ -1343,19 +1462,22 @@ ul li a:hover {
         border-left: solid #618967 3px;
         text-transform: uppercase;
         color: #FFFFFF;
-    } 
+    }
+
     .kontakt_inf {
         margin-left: 30px;
         background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
         border-radius: 10px;
         width: 450px;
         height: 350px;
-    }   
+    }
+
     .kontakt_inf h2 {
         color: white;
         font-size: 28px;
         margin-left: 50px;
     }
+
     .pole {
         margin-left: 50px;
         margin-top: 25px;
@@ -1367,19 +1489,22 @@ ul li a:hover {
         width: 320px;
         height: 60px;
         font-size: 20px;
-    }  
+    }
+
     .kontakt_inf2 {
         margin-left: 30px;
         background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
         border-radius: 10px;
         width: 450px;
         height: 720px;
-    }  
+    }
+
     .kontakt_inf2 h2 {
         color: white;
         font-size: 28px;
         margin-left: 50px;
-    }  
+    }
+
     .sposob_dostavki {
         width: 263px;
         height: 60px;
@@ -1391,8 +1516,9 @@ ul li a:hover {
         flex-direction: row;
         width: 285px;
         border-radius: 10px;
-    
-    }  
+
+    }
+
     .sposob_dostavki_dostavka {
         background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
         border-radius: 10px 0px 0px 10px;
@@ -1402,7 +1528,8 @@ ul li a:hover {
         color: white;
         padding-top: 5px;
         font-size: 18px;
-    }   
+    }
+
     .sposob_dostavki_samovivoz {
         background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
         border-radius: 0px 10px 10px 0px;
@@ -1412,20 +1539,24 @@ ul li a:hover {
         padding-top: 5px;
         font-size: 18px;
     }
+
     .sposob_dostavki_dostavka:focus {
         background: #618967;
         caret-color: transparent !important;
-    }    
+    }
+
     .sposob_dostavki_samovivoz:focus {
         background: #618967;
         caret-color: transparent !important;
-    }    
+    }
+
     .pola_for_zapolnenia {
         background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
         border-radius: 10px;
         margin-left: 50px;
     }
-    .pole_adress{
+
+    .pole_adress {
         background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
         border-radius: 10px;
         width: 320px;
@@ -1434,7 +1565,8 @@ ul li a:hover {
         padding-left: 15px;
         margin-left: 5px;
     }
-    .pole_dom{
+
+    .pole_dom {
         background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
         border-radius: 10px;
         width: 200px;
@@ -1444,7 +1576,8 @@ ul li a:hover {
         margin-top: 15px;
         padding-left: 15px;
     }
-    .pole_kvartira{
+
+    .pole_kvartira {
         background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
         border-radius: 10px;
         width: 200px;
@@ -1454,7 +1587,8 @@ ul li a:hover {
         padding-left: 15px;
         margin-left: 5px;
     }
-    .pole_podezd{
+
+    .pole_podezd {
         background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
         border-radius: 10px;
         width: 200px;
@@ -1462,9 +1596,10 @@ ul li a:hover {
         margin-left: 5px;
         font-size: 20px;
         padding-left: 15px;
-        margin-top: 15px; 
+        margin-top: 15px;
     }
-    .pole_etash{
+
+    .pole_etash {
         background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
         border-radius: 10px;
         width: 200px;
@@ -1473,7 +1608,8 @@ ul li a:hover {
         font-size: 20px;
         padding-left: 15px;
     }
-    .pole_komment{
+
+    .pole_komment {
         background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
         border-radius: 10px;
         width: 320px;
@@ -1483,6 +1619,7 @@ ul li a:hover {
         padding-left: 15px;
         margin-left: 5px;
     }
+
     .kontakt_inf3 {
         margin-left: 30px;
         background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
@@ -1490,11 +1627,13 @@ ul li a:hover {
         width: 450px;
         height: 280px;
     }
+
     .kontakt_inf3 h2 {
         color: white;
         font-size: 28px;
         margin-left: 50px;
     }
+
     .sposob_oplati {
         width: 183px;
         height: 80px;
@@ -1507,6 +1646,7 @@ ul li a:hover {
         width: 205px;
         border-radius: 10px;
     }
+
     .sposob_oplati_onlain {
         background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
         border: 1px solid #72A479;
@@ -1518,7 +1658,7 @@ ul li a:hover {
         padding-top: 5px;
         font-size: 18px;
     }
-    
+
     .sposob_oplati_karta {
         background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
         border-radius: 0px 0px 0px 0px;
@@ -1529,7 +1669,8 @@ ul li a:hover {
         padding-top: 5px;
         font-size: 18px;
     }
-    .sposob_oplati_nalichka{
+
+    .sposob_oplati_nalichka {
         background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
         border-radius: 0px 10px 10px 0px;
         border: 1px solid #72A479;
@@ -1539,19 +1680,23 @@ ul li a:hover {
         padding-top: 5px;
         font-size: 18px;
     }
+
     .sposob_oplati_onlain:focus {
         background: #618967;
         caret-color: transparent !important;
     }
+
     .sposob_oplati_karta:focus {
         background: #618967;
         caret-color: transparent !important;
     }
+
     .sposob_oplati_nalichka:focus {
         background: #618967;
         caret-color: transparent !important;
     }
-    .sdacha{
+
+    .sdacha {
         background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
         border-radius: 10px;
         width: 173px;
@@ -1560,6 +1705,7 @@ ul li a:hover {
         padding-left: 15px;
         font-size: 20px;
     }
+
     .kontakt_inf4 {
         margin-left: 30px;
         background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
@@ -1567,11 +1713,13 @@ ul li a:hover {
         width: 450px;
         height: 370px;
     }
+
     .kontakt_inf4 h2 {
         color: white;
         font-size: 28px;
         margin-left: 50px;
     }
+
     .kogda_dostavka {
         width: 263px;
         height: 60px;
@@ -1584,6 +1732,7 @@ ul li a:hover {
         width: 285px;
         border-radius: 10px;
     }
+
     .skoro {
         background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
         border: 1px solid #72A479;
@@ -1596,7 +1745,8 @@ ul li a:hover {
         padding-top: 5px;
         font-size: 18px;
     }
-    .ko_vremeni{
+
+    .ko_vremeni {
         background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
         border-radius: 0px 10px 10px 0px;
         border: 1px solid #72A479;
@@ -1607,18 +1757,22 @@ ul li a:hover {
         padding-top: 5px;
         font-size: 18px;
     }
+
     .skoro:focus {
         background: #618967;
         caret-color: transparent !important;
     }
+
     .ko_vremeni:focus {
         background: #618967;
         caret-color: transparent !important;
     }
-    .vrema_kogda{
-   display: none;
+
+    .vrema_kogda {
+        display: none;
     }
-    .kol_person{
+
+    .kol_person {
         background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
         border-radius: 10px;
         width: 173px;
@@ -1627,21 +1781,25 @@ ul li a:hover {
         padding-left: 15px;
         font-size: 20px;
     }
-    .perezvon{
+
+    .perezvon {
         margin-top: 20px;
         color: white;
         margin-left: 50px;
         font-size: 18px;
-        line-height: 19px;  
+        line-height: 19px;
     }
-    .radio{
+
+    .radio {
         color: white;
         margin-left: 50px;
     }
-    .radioo{
+
+    .radioo {
         color: white;
         font-size: 20px;
     }
+
     .kontakt_inf5 {
         display: flex;
         flex-direction: column;
@@ -1654,14 +1812,16 @@ ul li a:hover {
         margin-top: 20px;
         flex-direction: row;
     }
-    .checkbox_s{
+
+    .checkbox_s {
         margin-top: 1px;
-        padding-top:30px;
+        padding-top: 30px;
         font-size: 15px;
         color: white;
         margin-left: 5px;
     }
-    .knopka_oform{
+
+    .knopka_oform {
         margin-top: 22px;
         margin-left: 20px;
         margin-right: 10px;
@@ -1675,10 +1835,12 @@ ul li a:hover {
         background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
         border-radius: 10px;
     }
-    .knopka_oform:hover{
+
+    .knopka_oform:hover {
         text-transform: uppercase;
         background: #315336;
     }
+
     .footer {
         display: flex;
         flex-direction: row;
@@ -1689,6 +1851,7 @@ ul li a:hover {
         height: 145px;
         position: relative;
     }
+
     .vverx {
         position: absolute;
         top: 51px;
@@ -1696,21 +1859,25 @@ ul li a:hover {
         width: 44px;
         height: 44px;
     }
-    .vverx:hover{
+
+    .vverx:hover {
         position: absolute;
         top: 46px;
         left: 35px;
         width: 70px;
         height: 70px;
     }
+
     .foorer_container {
         display: flex;
         flex-direction: row;
         margin-left: 129px;
-    }   
+    }
+
     .footer_inf {
         display: none;
-    }  
+    }
+
     .LOGOS2 {
         font-style: normal;
         font-size: 35px;
@@ -1718,6 +1885,7 @@ ul li a:hover {
         letter-spacing: 0.15em;
         color: #5f9266;
     }
+
     .prava {
         margin-top: -10px;
         width: 200px;
@@ -1727,6 +1895,7 @@ ul li a:hover {
         line-height: 14px;
         color: #CFCFCF;
     }
+
     .prava2 {
         list-style-type: none;
         text-decoration: underline;
@@ -1738,12 +1907,15 @@ ul li a:hover {
         line-height: 16px;
         color: #FFFFFF;
     }
-    .prava2 a{
+
+    .prava2 a {
         color: #FFFFFF;
     }
-    .prava2 a:hover{
+
+    .prava2 a:hover {
         color: #5f9266;
     }
+
     .osn_navigation {
         display: flex;
         flex-direction: row;
@@ -1754,6 +1926,7 @@ ul li a:hover {
         height: 100px;
         margin-right: 10px;
     }
+
     .osn_navigation a {
         text-decoration: none;
         width: 50px;
@@ -1765,22 +1938,25 @@ ul li a:hover {
         line-height: 20px;
         color: #FFFFFF;
     }
+
     .osn_navigation a:hover {
         font-size: 24px;
         color: #5f9266;
     }
 }
-@media screen and (max-width: 500px){
+
+@media screen and (max-width: 500px) {
     .header {
         display: flex;
         flex-direction: row;
-        justify-content:space-between;
+        justify-content: space-between;
         align-items: center;
         height: 99px;
         width: 100%;
         background: #403C3B;
         box-shadow: 0px 30px 60px rgba(34, 31, 32, 0.2);
-    } 
+    }
+
     .LaVue {
         width: 100px;
         height: 25px;
@@ -1792,45 +1968,55 @@ ul li a:hover {
         font-size: 45px;
         line-height: 25px;
         letter-spacing: 0.15em;
-        color:#5f9266;
+        color: #5f9266;
         margin-right: 20px;
     }
+
     .paspologenie {
         position: relative;
     }
+
     .adrres {
         display: none;
     }
+
     .lupa {
         display: none;
-    } 
+    }
+
     .znachok_paspologenie {
-       display: none;
+        display: none;
     }
+
     .pozvonit {
-       display: none;
+        display: none;
     }
+
     .pozvonit img {
         display: none;
     }
+
     .pozvonit_phone {
         display: flex;
         flex-direction: column;
         margin-left: 25px;
-    }  
+    }
+
     .pozvonit_phone_kontakt {
         margin-top: 20px;
         font-style: normal;
         font-size: 25px;
         line-height: 20px;
         color: #CFCFCF;
-    }  
+    }
+
     .pozvonit_phone_tel {
         color: white;
         margin-top: -15px;
         font-weight: 400;
         font-size: 20px;
-    } 
+    }
+
     .korzina_header {
         display: flex;
         flex-direction: row;
@@ -1841,7 +2027,8 @@ ul li a:hover {
         margin-left: 60px;
         margin-right: 10px;
     }
-    .korzina_header_nadpis{
+
+    .korzina_header_nadpis {
         border-right: none;
         width: 70px;
         padding-right: 15px;
@@ -1851,9 +2038,11 @@ ul li a:hover {
         padding-top: 10px;
         margin-top: 0px;
     }
-    .korzina_header img{
+
+    .korzina_header img {
         display: none;
     }
+
     .oformlenie {
         background: linear-gradient(360deg, #211F20 0%, #44403F 100%);
         height: 2250px;
@@ -1862,9 +2051,11 @@ ul li a:hover {
         justify-content: center;
         align-items: center;
     }
-    .pereiti_k_vibory{
+
+    .pereiti_k_vibory {
         display: none;
     }
+
     .oformlenie h1 {
         margin-top: 60px;
         margin-left: 1px;
@@ -1873,7 +2064,7 @@ ul li a:hover {
         text-transform: uppercase;
         color: #FFFFFF;
     }
-    
+
     .kontakt_inf {
         margin-left: 1px;
         background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
@@ -1881,11 +2072,13 @@ ul li a:hover {
         width: 350px;
         height: 350px;
     }
+
     .kontakt_inf h2 {
         color: white;
         font-size: 28px;
         margin-left: 50px;
-    } 
+    }
+
     .pole {
         margin-left: 50px;
         margin-top: 15px;
@@ -1898,6 +2091,7 @@ ul li a:hover {
         height: 60px;
         font-size: 25px;
     }
+
     .kontakt_inf2 {
         margin-left: 1px;
         background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
@@ -1905,11 +2099,13 @@ ul li a:hover {
         width: 350px;
         height: 720px;
     }
+
     .kontakt_inf2 h2 {
         color: white;
         font-size: 28px;
         margin-left: 50px;
     }
+
     .sposob_dostavki {
         width: 263px;
         height: 60px;
@@ -1921,8 +2117,9 @@ ul li a:hover {
         flex-direction: row;
         width: 285px;
         border-radius: 10px;
-    
-    } 
+
+    }
+
     .sposob_dostavki_dostavka {
         background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
         border-radius: 10px 0px 0px 10px;
@@ -1933,6 +2130,7 @@ ul li a:hover {
         padding-top: 5px;
         font-size: 18px;
     }
+
     .sposob_dostavki_samovivoz {
         background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
         border-radius: 0px 10px 10px 0px;
@@ -1942,20 +2140,24 @@ ul li a:hover {
         padding-top: 5px;
         font-size: 18px;
     }
+
     .sposob_dostavki_dostavka:focus {
         background: #618967;
         caret-color: transparent !important;
     }
+
     .sposob_dostavki_samovivoz:focus {
         background: #618967;
         caret-color: transparent !important;
-    } 
+    }
+
     .pola_for_zapolnenia {
         background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
         border-radius: 10px;
-        margin-left: 50px;   
+        margin-left: 50px;
     }
-    .pole_adress{
+
+    .pole_adress {
         background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
         border-radius: 10px;
         width: 250px;
@@ -1964,7 +2166,8 @@ ul li a:hover {
         padding-left: 15px;
         margin-left: 5px;
     }
-    .pole_dom{
+
+    .pole_dom {
         background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
         border-radius: 10px;
         width: 200px;
@@ -1974,7 +2177,8 @@ ul li a:hover {
         margin-top: 15px;
         padding-left: 15px;
     }
-    .pole_kvartira{
+
+    .pole_kvartira {
         background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
         border-radius: 10px;
         width: 200px;
@@ -1984,7 +2188,8 @@ ul li a:hover {
         padding-left: 15px;
         margin-left: 5px;
     }
-    .pole_podezd{
+
+    .pole_podezd {
         background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
         border-radius: 10px;
         width: 200px;
@@ -1992,9 +2197,10 @@ ul li a:hover {
         margin-left: 5px;
         font-size: 25px;
         padding-left: 15px;
-        margin-top: 15px; 
+        margin-top: 15px;
     }
-    .pole_etash{
+
+    .pole_etash {
         background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
         border-radius: 10px;
         width: 200px;
@@ -2004,7 +2210,8 @@ ul li a:hover {
         font-size: 25px;
         padding-left: 15px;
     }
-    .pole_komment{
+
+    .pole_komment {
         background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
         border-radius: 10px;
         width: 250px;
@@ -2014,6 +2221,7 @@ ul li a:hover {
         margin-left: 5px;
         padding-left: 15px;
     }
+
     .kontakt_inf3 {
         margin-left: 1px;
         background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
@@ -2021,11 +2229,13 @@ ul li a:hover {
         width: 350px;
         height: 280px;
     }
+
     .kontakt_inf3 h2 {
         color: white;
         font-size: 28px;
         margin-left: 50px;
     }
+
     .sposob_oplati {
         width: 183px;
         height: 80px;
@@ -2038,6 +2248,7 @@ ul li a:hover {
         width: 205px;
         border-radius: 10px;
     }
+
     .sposob_oplati_onlain {
         background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
         border: 1px solid #72A479;
@@ -2049,7 +2260,7 @@ ul li a:hover {
         padding-top: 5px;
         font-size: 18px;
     }
-    
+
     .sposob_oplati_karta {
         background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
         border-radius: 0px 0px 0px 0px;
@@ -2060,7 +2271,8 @@ ul li a:hover {
         padding-top: 5px;
         font-size: 18px;
     }
-    .sposob_oplati_nalichka{
+
+    .sposob_oplati_nalichka {
         background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
         border-radius: 0px 10px 10px 0px;
         border: 1px solid #72A479;
@@ -2070,19 +2282,23 @@ ul li a:hover {
         padding-top: 5px;
         font-size: 18px;
     }
+
     .sposob_oplati_onlain:focus {
         background: #618967;
         caret-color: transparent !important;
     }
+
     .sposob_oplati_karta:focus {
         background: #618967;
         caret-color: transparent !important;
     }
+
     .sposob_oplati_nalichka:focus {
         background: #618967;
         caret-color: transparent !important;
     }
-    .sdacha{
+
+    .sdacha {
         background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
         border-radius: 10px;
         width: 173px;
@@ -2091,7 +2307,7 @@ ul li a:hover {
         padding-left: 15px;
         font-size: 23px;
     }
-     
+
     .kontakt_inf4 {
         margin-left: 1px;
         background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
@@ -2099,11 +2315,13 @@ ul li a:hover {
         width: 350px;
         height: 430px;
     }
+
     .kontakt_inf4 h2 {
         color: white;
         font-size: 28px;
         margin-left: 50px;
     }
+
     .kogda_dostavka {
         width: 263px;
         height: 60px;
@@ -2116,6 +2334,7 @@ ul li a:hover {
         width: 285px;
         border-radius: 10px;
     }
+
     .skoro {
         background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
         border: 1px solid #72A479;
@@ -2128,8 +2347,8 @@ ul li a:hover {
         padding-top: 5px;
         font-size: 18px;
     }
-    
-    .ko_vremeni{
+
+    .ko_vremeni {
         background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
         border-radius: 0px 10px 10px 0px;
         border: 1px solid #72A479;
@@ -2140,18 +2359,22 @@ ul li a:hover {
         padding-top: 5px;
         font-size: 18px;
     }
+
     .skoro:focus {
         background: #618967;
         caret-color: transparent !important;
     }
+
     .ko_vremeni:focus {
         background: #618967;
         caret-color: transparent !important;
     }
-    .vrema_kogda{
-   display: none;
+
+    .vrema_kogda {
+        display: none;
     }
-    .kol_person{
+
+    .kol_person {
         background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
         border-radius: 10px;
         width: 203px;
@@ -2160,21 +2383,25 @@ ul li a:hover {
         padding-left: 15px;
         font-size: 23px;
     }
-    .perezvon{
+
+    .perezvon {
         margin-top: 20px;
         color: white;
         margin-left: 50px;
         font-size: 25px;
-        line-height: 19px;  
+        line-height: 19px;
     }
-    .radio{
+
+    .radio {
         color: white;
         margin-left: 50px;
     }
-    .radioo{
+
+    .radioo {
         color: white;
         font-size: 25px;
     }
+
     .kontakt_inf5 {
         display: flex;
         flex-direction: column;
@@ -2187,14 +2414,16 @@ ul li a:hover {
         margin-top: 20px;
         flex-direction: row;
     }
-    .checkbox_s{
+
+    .checkbox_s {
         margin-top: 1px;
-        padding-top:30px;
+        padding-top: 30px;
         font-size: 22px;
         color: white;
         margin-left: 5px;
     }
-    .knopka_oform{
+
+    .knopka_oform {
         margin-top: 42px;
         margin-left: 20px;
         margin-right: 10px;
@@ -2208,10 +2437,12 @@ ul li a:hover {
         background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
         border-radius: 10px;
     }
-    .knopka_oform:hover{
+
+    .knopka_oform:hover {
         text-transform: uppercase;
         background: #315336;
     }
+
     .footer {
         display: flex;
         flex-direction: column;
@@ -2222,6 +2453,7 @@ ul li a:hover {
         height: 145px;
         position: relative;
     }
+
     .vverx {
         position: absolute;
         top: 41px;
@@ -2229,28 +2461,33 @@ ul li a:hover {
         width: 64px;
         height: 64px;
     }
-    .vverx:hover{
+
+    .vverx:hover {
         position: absolute;
         top: 46px;
         left: 35px;
         width: 70px;
         height: 70px;
     }
+
     .foorer_container {
         display: flex;
         flex-direction: row;
         margin-left: 129px;
     }
+
     .footer_inf {
         display: none;
     }
+
     .LOGOS2 {
         font-style: normal;
         font-size: 35px;
         line-height: 25px;
         letter-spacing: 0.15em;
         color: #5f9266;
-    }  
+    }
+
     .prava {
         margin-top: -10px;
         width: 200px;
@@ -2259,7 +2496,8 @@ ul li a:hover {
         font-size: 13px;
         line-height: 14px;
         color: #CFCFCF;
-    } 
+    }
+
     .prava2 {
         list-style-type: none;
         text-decoration: underline;
@@ -2271,12 +2509,15 @@ ul li a:hover {
         line-height: 16px;
         color: #FFFFFF;
     }
-    .prava2 a{
+
+    .prava2 a {
         color: #FFFFFF;
     }
-    .prava2 a:hover{
+
+    .prava2 a:hover {
         color: #5f9266;
     }
+
     .osn_navigation {
         display: flex;
         flex-direction: column;
@@ -2287,6 +2528,7 @@ ul li a:hover {
         height: 100px;
         margin-right: 10px;
     }
+
     .osn_navigation a {
         text-decoration: none;
         width: 50px;
@@ -2298,6 +2540,7 @@ ul li a:hover {
         line-height: 20px;
         color: #FFFFFF;
     }
+
     .osn_navigation a:hover {
         font-size: 24px;
         color: #5f9266;

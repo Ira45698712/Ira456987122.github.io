@@ -22,7 +22,7 @@ body {
     font-size: 40px;
     line-height: 25px;
     letter-spacing: 0.15em;
-    color:#5f9266;
+    color: #5f9266;
 }
 
 .paspologenie {
@@ -72,7 +72,8 @@ body {
     height: 40px;
     margin-top: 28px;
 }
-.pozvonit img:hover{
+
+.pozvonit img:hover {
     border: solid 1px #5f9266;
 }
 
@@ -81,9 +82,11 @@ body {
     flex-direction: column;
     margin-left: 20px;
 }
+
 .pozvonit_phone_tel:hover {
     text-decoration: underline;
 }
+
 .pozvonit_phone_kontakt {
     margin-top: 28px;
     font-style: normal;
@@ -109,7 +112,8 @@ body {
     margin-left: 210px;
     margin-top: 25px;
 }
-.korzina_header_nadpis{
+
+.korzina_header_nadpis {
     border-right: solid 1px rgb(11, 2, 2);
     width: 70px;
     padding-bottom: 10px;
@@ -118,13 +122,15 @@ body {
     color: white;
     font-size: 17px;
 }
-.korzina_header img{
+
+.korzina_header img {
     width: 32px;
     height: 32px;
     margin-left: 8px;
     margin-top: 10px;
 }
-.korzina_header:hover{
+
+.korzina_header:hover {
     background: #315336;
     text-decoration: underline;
     width: 157px;
@@ -179,6 +185,7 @@ ul li a:hover {
     background: linear-gradient(360deg, #211F20 0%, #44403F 100%);
     height: 3750px;
 }
+
 .galerea h1 {
     margin-top: 60px;
     margin-left: 150px;
@@ -187,50 +194,56 @@ ul li a:hover {
     text-transform: uppercase;
     color: #FFFFFF;
 }
-.foto_galerea{
+
+.foto_galerea {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 30px;
-    
+
 }
-.foto_galerea img{
+
+.foto_galerea img {
     margin-top: 20px;
     width: 800px;
     height: 570px;
     animation-duration: 7s;
     animation-name: foto;
 }
-@keyframes foto{
+
+@keyframes foto {
     0% {
         opacity: 10%;
         width: 600px;
         height: 400px;
-       
-      }
-    
-      100% {
+
+    }
+
+    100% {
         opacity: 100%;
         width: 800px;
         height: 570px;
-      } 
+    }
 }
-.o_nas{
-   
+
+.o_nas {
+
     margin-top: 40px;
     background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
     height: 400px;
     width: 800px;
     margin-left: 360px;
 }
-.o_nas_slogan{
+
+.o_nas_slogan {
     color: white;
     margin-left: 200px;
     margin-top: 20px;
     font-size: 32px;
 }
-.main_for_us1{
+
+.main_for_us1 {
     display: flex;
     flex-direction: column;
     margin-left: 35px;
@@ -238,7 +251,8 @@ ul li a:hover {
     color: #CFCFCF;
     width: 490px;
 }
-.main_for_us{
+
+.main_for_us {
     display: flex;
     flex-direction: row;
     margin-left: 35px;
@@ -247,6 +261,7 @@ ul li a:hover {
     font-size: 16px;
     width: 640px;
 }
+
 .footer {
     width: 100%;
     background: linear-gradient(270.7deg, #44403F 0.4%, #211F20 100%);
@@ -261,13 +276,15 @@ ul li a:hover {
     width: 64px;
     height: 64px;
 }
-.vverx:hover{
+
+.vverx:hover {
     position: absolute;
     top: 46px;
     left: 35px;
     width: 70px;
     height: 70px;
 }
+
 .foorer_container {
     display: flex;
     flex-direction: row;
@@ -307,12 +324,15 @@ ul li a:hover {
     line-height: 16px;
     color: #FFFFFF;
 }
-.prava2 a{
+
+.prava2 a {
     color: #FFFFFF;
 }
-.prava2 a:hover{
+
+.prava2 a:hover {
     color: #5f9266;
 }
+
 .osn_navigation {
     display: flex;
     flex-direction: row;
@@ -331,11 +351,13 @@ ul li a:hover {
     line-height: 24px;
     color: #FFFFFF;
 }
+
 .osn_navigation a:hover {
     font-size: 24px;
     color: #5f9266;
 }
-@media screen and (max-width: 1350px){
+
+@media screen and (max-width: 1350px) {
     .header {
         display: flex;
         flex-direction: row;
@@ -346,7 +368,7 @@ ul li a:hover {
         background: #403C3B;
         box-shadow: 0px 30px 60px rgba(34, 31, 32, 0.2);
     }
-    
+
     .LaVue {
         width: 100px;
         height: 25px;
@@ -358,13 +380,13 @@ ul li a:hover {
         font-size: 40px;
         line-height: 25px;
         letter-spacing: 0.15em;
-        color:#5f9266;
+        color: #5f9266;
     }
-    
+
     .paspologenie {
         position: relative;
     }
-    
+
     .adrres {
         background-color: #504B4A;
         font-family: 'Gilroy';
@@ -374,47 +396,47 @@ ul li a:hover {
         font-weight: 400;
         font-size: 18px;
         line-height: 21px;
-        margin-left:50px;
+        margin-left: 50px;
         margin-top: 5px;
         border-radius: 5px;
         padding-left: 30px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
+
     }
-    
+
     .lupa {
         position: absolute;
         right: 12px;
         top: 15px;
         width: 19px;
     }
-    
+
     .znachok_paspologenie {
         position: absolute;
         left: 55px;
         top: 13px;
         width: 25px;
     }
-    
-    
+
+
     .pozvonit {
         display: flex;
         flex-direction: row;
         margin-left: 40px;
     }
-    
+
     .pozvonit img {
         width: 30px;
         height: 30px;
         margin-top: 28px;
     }
-    
+
     .pozvonit_phone {
         display: flex;
         flex-direction: column;
         margin-left: 20px;
     }
-    
+
     .pozvonit_phone_kontakt {
         margin-top: 20px;
         font-style: normal;
@@ -422,14 +444,14 @@ ul li a:hover {
         line-height: 20px;
         color: #CFCFCF;
     }
-    
+
     .pozvonit_phone_tel {
         color: white;
         margin-top: -15px;
         font-weight: 400;
         font-size: 17px;
     }
-    
+
     .korzina_header {
         display: flex;
         flex-direction: row;
@@ -440,7 +462,8 @@ ul li a:hover {
         margin-left: 40px;
         margin-top: 10px;
     }
-    .korzina_header_nadpis{
+
+    .korzina_header_nadpis {
         border-right: solid 1px rgb(11, 2, 2);
         width: 70px;
         padding-bottom: 10px;
@@ -449,18 +472,21 @@ ul li a:hover {
         color: white;
         font-size: 17px;
     }
-    .korzina_header img{
+
+    .korzina_header img {
         width: 32px;
         height: 32px;
         margin-left: 8px;
         margin-top: 10px;
     }
-    .korzina:hover{
+
+    .korzina:hover {
         background: #315336;
         text-decoration: underline;
         width: 157px;
         height: 55px;
-    }  
+    }
+
     .menu_ssilki {
         margin: 0;
         background-color: #403C3B;
@@ -469,7 +495,7 @@ ul li a:hover {
         flex-direction: column;
         border-bottom: solid 1px rgba(255, 255, 255, 0.08);
     }
-    
+
     .menu {
         font-family: 'Radio Canada', sans-serif;
         display: flex;
@@ -491,6 +517,7 @@ ul li a:hover {
         list-style-type: none;
         padding-top: 20px;
     }
+
     .galerea {
         background: linear-gradient(360deg, #211F20 0%, #44403F 100%);
         height: 3950px;
@@ -499,6 +526,7 @@ ul li a:hover {
         justify-content: center;
         align-items: center;
     }
+
     .galerea h1 {
         margin-top: 10px;
         margin-left: 50px;
@@ -507,36 +535,41 @@ ul li a:hover {
         text-transform: uppercase;
         color: #FFFFFF;
     }
-    .foto_galerea{
+
+    .foto_galerea {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         margin-top: 30px;
-        
+
     }
-    .foto_galerea img{
+
+    .foto_galerea img {
         margin-top: 20px;
         width: 700px;
         height: 570px;
         animation-duration: 7s;
         animation-name: foto;
     }
-    .o_nas{
-   
+
+    .o_nas {
+
         margin-top: 40px;
         background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
         height: 690px;
         width: 700px;
         margin-left: 0;
     }
-    .o_nas_slogan{
+
+    .o_nas_slogan {
         color: white;
         margin-left: 200px;
         margin-top: 20px;
         font-size: 32px;
     }
-    .main_for_us1{
+
+    .main_for_us1 {
         display: flex;
         flex-direction: column;
         margin-left: 35px;
@@ -546,15 +579,17 @@ ul li a:hover {
         margin-bottom: 20px;
         font-size: 22px;
     }
-    .main_for_us{
+
+    .main_for_us {
         display: flex;
         flex-direction: row;
         margin-left: 35px;
         margin-top: 20px;
         color: #CFCFCF;
         font-size: 16px;
-        width: 640px;     
-    } 
+        width: 640px;
+    }
+
     .footer {
         display: flex;
         flex-direction: row;
@@ -564,7 +599,8 @@ ul li a:hover {
         background: linear-gradient(270.7deg, #44403F 0.4%, #211F20 100%);
         height: 195px;
         position: relative;
-    }  
+    }
+
     .vverx {
         position: absolute;
         top: 51px;
@@ -572,24 +608,27 @@ ul li a:hover {
         width: 44px;
         height: 44px;
     }
-    .vverx:hover{
+
+    .vverx:hover {
         position: absolute;
         top: 46px;
         left: 35px;
         width: 70px;
         height: 70px;
     }
+
     .foorer_container {
         display: flex;
         flex-direction: row;
         margin-left: 159px;
     }
-    
+
     .footer_inf {
         display: flex;
         flex-direction: column;
         color: white;
-    }  
+    }
+
     .LOGOS2 {
         font-style: normal;
         font-size: 35px;
@@ -597,6 +636,7 @@ ul li a:hover {
         letter-spacing: 0.15em;
         color: #5f9266;
     }
+
     .prava {
         margin-top: -10px;
         width: 200px;
@@ -605,7 +645,8 @@ ul li a:hover {
         font-size: 13px;
         line-height: 14px;
         color: #CFCFCF;
-    }   
+    }
+
     .prava2 {
         list-style-type: none;
         text-decoration: underline;
@@ -617,12 +658,15 @@ ul li a:hover {
         line-height: 16px;
         color: #FFFFFF;
     }
-    .prava2 a{
+
+    .prava2 a {
         color: #FFFFFF;
     }
-    .prava2 a:hover{
+
+    .prava2 a:hover {
         color: #5f9266;
     }
+
     .osn_navigation {
         display: flex;
         flex-direction: row;
@@ -632,7 +676,8 @@ ul li a:hover {
         margin-top: 20px;
         height: 100px;
         margin-right: 10px;
-    }  
+    }
+
     .osn_navigation a {
         text-decoration: none;
         width: 50px;
@@ -644,12 +689,14 @@ ul li a:hover {
         line-height: 24px;
         color: #FFFFFF;
     }
+
     .osn_navigation a:hover {
         font-size: 24px;
         color: #5f9266;
-    } 
+    }
 }
-@media screen and (max-width: 768px){
+
+@media screen and (max-width: 768px) {
     .header {
         display: flex;
         flex-direction: row;
@@ -660,7 +707,7 @@ ul li a:hover {
         background: #403C3B;
         box-shadow: 0px 30px 60px rgba(34, 31, 32, 0.2);
     }
-    
+
     .LaVue {
         width: 100px;
         height: 25px;
@@ -672,46 +719,56 @@ ul li a:hover {
         font-size: 40px;
         line-height: 25px;
         letter-spacing: 0.15em;
-        color:#5f9266;
+        color: #5f9266;
     }
+
     .paspologenie {
         position: relative;
-    }   
+    }
+
     .adrres {
-        display: none;   
-    }   
+        display: none;
+    }
+
     .lupa {
         display: none;
     }
+
     .znachok_paspologenie {
-       display: none;
-    }   
+        display: none;
+    }
+
     .pozvonit {
         display: flex;
         flex-direction: row;
         margin-left: 40px;
     }
+
     .pozvonit img {
         display: none;
-    } 
+    }
+
     .pozvonit_phone {
         display: flex;
         flex-direction: column;
         margin-left: 25px;
     }
+
     .pozvonit_phone_kontakt {
         margin-top: 20px;
         font-style: normal;
         font-size: 25px;
         line-height: 20px;
         color: #CFCFCF;
-    } 
+    }
+
     .pozvonit_phone_tel {
         color: white;
         margin-top: -15px;
         font-weight: 400;
         font-size: 20px;
     }
+
     .korzina_header {
         display: flex;
         flex-direction: row;
@@ -721,7 +778,8 @@ ul li a:hover {
         width: 109px;
         margin-left: 40px;
     }
-    .korzina_header_nadpis{
+
+    .korzina_header_nadpis {
         border-right: none;
         width: 70px;
         padding-right: 5px;
@@ -730,15 +788,18 @@ ul li a:hover {
         font-size: 25px;
         margin-top: 0px;
     }
-    .korzina_header img{
+
+    .korzina_header img {
         display: none;
     }
-    .korzina:hover{
+
+    .korzina:hover {
         background: #315336;
         text-decoration: underline;
         width: 157px;
         height: 55px;
-    } 
+    }
+
     .galerea {
         background: linear-gradient(360deg, #211F20 0%, #44403F 100%);
         height: 3150px;
@@ -747,14 +808,16 @@ ul li a:hover {
         justify-content: center;
         align-items: center;
     }
-    .foto_galerea{
+
+    .foto_galerea {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         margin-top: 30px;
-        
+
     }
+
     .galerea h1 {
         margin-top: 30px;
         margin-left: 5px;
@@ -763,7 +826,8 @@ ul li a:hover {
         text-transform: uppercase;
         color: #FFFFFF;
     }
-    .foto_galerea img{
+
+    .foto_galerea img {
         margin-top: 20px;
         width: 480px;
         height: 370px;
@@ -771,34 +835,37 @@ ul li a:hover {
         animation-name: foto;
     }
 
-@keyframes foto{
-    0% {
-        opacity: 10%;
-        width: 600px;
-        height: 400px;
-       
-      }
-    
-      100% {
-        opacity: 100%;
-        width: 480px;
-        height: 370px;
-      } 
-}
-    .o_nas{
+    @keyframes foto {
+        0% {
+            opacity: 10%;
+            width: 600px;
+            height: 400px;
+
+        }
+
+        100% {
+            opacity: 100%;
+            width: 480px;
+            height: 370px;
+        }
+    }
+
+    .o_nas {
         margin-top: 40px;
         background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
         height: 910px;
         width: 490px;
         margin-left: 0;
     }
-    .o_nas_slogan{
+
+    .o_nas_slogan {
         color: white;
         margin-left: 50px;
         margin-top: 20px;
         font-size: 32px;
     }
-    .main_for_us1{
+
+    .main_for_us1 {
         display: flex;
         flex-direction: column;
         margin-left: 35px;
@@ -808,7 +875,8 @@ ul li a:hover {
         margin-bottom: 20px;
         font-size: 25px;
     }
-    .main_for_us{
+
+    .main_for_us {
         display: flex;
         flex-direction: column;
         margin-left: 35px;
@@ -816,9 +884,10 @@ ul li a:hover {
         color: #CFCFCF;
         font-size: 16px;
         width: 640px;
-        
-      
+
+
     }
+
     .footer {
         display: flex;
         flex-direction: row;
@@ -829,6 +898,7 @@ ul li a:hover {
         height: 145px;
         position: relative;
     }
+
     .vverx {
         position: absolute;
         top: 51px;
@@ -836,21 +906,25 @@ ul li a:hover {
         width: 44px;
         height: 44px;
     }
-    .vverx:hover{
+
+    .vverx:hover {
         position: absolute;
         top: 46px;
         left: 35px;
         width: 70px;
         height: 70px;
     }
+
     .foorer_container {
         display: flex;
         flex-direction: row;
         margin-left: 129px;
-    }   
+    }
+
     .footer_inf {
         display: none;
-    }  
+    }
+
     .LOGOS2 {
         font-style: normal;
         font-size: 35px;
@@ -858,6 +932,7 @@ ul li a:hover {
         letter-spacing: 0.15em;
         color: #5f9266;
     }
+
     .prava {
         margin-top: -10px;
         width: 200px;
@@ -867,6 +942,7 @@ ul li a:hover {
         line-height: 14px;
         color: #CFCFCF;
     }
+
     .prava2 {
         list-style-type: none;
         text-decoration: underline;
@@ -878,12 +954,15 @@ ul li a:hover {
         line-height: 16px;
         color: #FFFFFF;
     }
-    .prava2 a{
+
+    .prava2 a {
         color: #FFFFFF;
     }
-    .prava2 a:hover{
+
+    .prava2 a:hover {
         color: #5f9266;
     }
+
     .osn_navigation {
         display: flex;
         flex-direction: row;
@@ -894,7 +973,7 @@ ul li a:hover {
         height: 100px;
         margin-right: 10px;
     }
-    
+
     .osn_navigation a {
         text-decoration: none;
         width: 50px;
@@ -906,22 +985,25 @@ ul li a:hover {
         line-height: 20px;
         color: #FFFFFF;
     }
+
     .osn_navigation a:hover {
         font-size: 24px;
         color: #5f9266;
     }
 }
-@media screen and (max-width: 500px){
+
+@media screen and (max-width: 500px) {
     .header {
         display: flex;
         flex-direction: row;
-        justify-content:space-between;
+        justify-content: space-between;
         align-items: center;
         height: 99px;
         width: 100%;
         background: #403C3B;
         box-shadow: 0px 30px 60px rgba(34, 31, 32, 0.2);
-    } 
+    }
+
     .LaVue {
         width: 100px;
         height: 25px;
@@ -933,45 +1015,55 @@ ul li a:hover {
         font-size: 45px;
         line-height: 25px;
         letter-spacing: 0.15em;
-        color:#5f9266;
+        color: #5f9266;
         margin-right: 20px;
     }
+
     .paspologenie {
         position: relative;
     }
+
     .adrres {
         display: none;
     }
+
     .lupa {
         display: none;
-    } 
+    }
+
     .znachok_paspologenie {
-       display: none;
+        display: none;
     }
+
     .pozvonit {
-       display: none;
+        display: none;
     }
+
     .pozvonit img {
         display: none;
     }
+
     .pozvonit_phone {
         display: flex;
         flex-direction: column;
         margin-left: 25px;
-    }  
+    }
+
     .pozvonit_phone_kontakt {
         margin-top: 20px;
         font-style: normal;
         font-size: 25px;
         line-height: 20px;
         color: #CFCFCF;
-    }  
+    }
+
     .pozvonit_phone_tel {
         color: white;
         margin-top: -15px;
         font-weight: 400;
         font-size: 20px;
-    } 
+    }
+
     .korzina_header {
         display: flex;
         flex-direction: row;
@@ -982,7 +1074,8 @@ ul li a:hover {
         margin-left: 60px;
         margin-right: 10px;
     }
-    .korzina_header_nadpis{
+
+    .korzina_header_nadpis {
         border-right: none;
         width: 70px;
         padding-right: 15px;
@@ -992,9 +1085,11 @@ ul li a:hover {
         padding-top: 10px;
         margin-top: 0px;
     }
-    .korzina_header img{
+
+    .korzina_header img {
         display: none;
     }
+
     .galerea {
         background: linear-gradient(360deg, #211F20 0%, #44403F 100%);
         height: 2800px;
@@ -1003,13 +1098,15 @@ ul li a:hover {
         justify-content: center;
         align-items: center;
     }
-    .foto_galerea{
+
+    .foto_galerea {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 30px;    
+        margin-top: 30px;
     }
+
     .galerea h1 {
         margin-top: 10px;
         margin-left: 5px;
@@ -1018,39 +1115,45 @@ ul li a:hover {
         text-transform: uppercase;
         color: #FFFFFF;
     }
-    .foto_galerea img{
+
+    .foto_galerea img {
         margin-top: 20px;
         width: 370px;
         height: 230px;
         animation-duration: 7s;
         animation-name: foto;
     }
-@keyframes foto{
-    0% {
-        opacity: 10%;
-        width: 400px;
-        height: 250px;    
-      }
-      100% {
-        opacity: 100%;
-        width: 350px;
-        height: 190px;
-      } 
-}
-    .o_nas{
+
+    @keyframes foto {
+        0% {
+            opacity: 10%;
+            width: 400px;
+            height: 250px;
+        }
+
+        100% {
+            opacity: 100%;
+            width: 350px;
+            height: 190px;
+        }
+    }
+
+    .o_nas {
         margin-top: 40px;
         background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
         height: 1300px;
         width: 350px;
         margin-left: 0;
     }
-    .o_nas_slogan{
+
+    .o_nas_slogan {
         color: white;
         margin-left: 50px;
         margin-top: 20px;
         font-size: 32px;
     }
-    .main_for_us1{
+
+    .main_for_us1 {
         display: flex;
         flex-direction: column;
         margin-left: 5px;
@@ -1060,15 +1163,17 @@ ul li a:hover {
         margin-bottom: 20px;
         font-size: 28px;
     }
-    .main_for_us{
+
+    .main_for_us {
         display: flex;
         flex-direction: column;
         margin-left: 35px;
         margin-top: 20px;
         color: #CFCFCF;
         font-size: 16px;
-        width: 640px;    
+        width: 640px;
     }
+
     .footer {
         display: flex;
         flex-direction: column;
@@ -1079,6 +1184,7 @@ ul li a:hover {
         height: 145px;
         position: relative;
     }
+
     .vverx {
         position: absolute;
         top: 41px;
@@ -1086,28 +1192,33 @@ ul li a:hover {
         width: 64px;
         height: 64px;
     }
-    .vverx:hover{
+
+    .vverx:hover {
         position: absolute;
         top: 46px;
         left: 35px;
         width: 70px;
         height: 70px;
     }
+
     .foorer_container {
         display: flex;
         flex-direction: row;
         margin-left: 129px;
     }
+
     .footer_inf {
         display: none;
     }
+
     .LOGOS2 {
         font-style: normal;
         font-size: 35px;
         line-height: 25px;
         letter-spacing: 0.15em;
         color: #5f9266;
-    }  
+    }
+
     .prava {
         margin-top: -10px;
         width: 200px;
@@ -1116,7 +1227,8 @@ ul li a:hover {
         font-size: 13px;
         line-height: 14px;
         color: #CFCFCF;
-    } 
+    }
+
     .prava2 {
         list-style-type: none;
         text-decoration: underline;
@@ -1128,12 +1240,15 @@ ul li a:hover {
         line-height: 16px;
         color: #FFFFFF;
     }
-    .prava2 a{
+
+    .prava2 a {
         color: #FFFFFF;
     }
-    .prava2 a:hover{
+
+    .prava2 a:hover {
         color: #5f9266;
     }
+
     .osn_navigation {
         display: flex;
         flex-direction: column;
@@ -1144,6 +1259,7 @@ ul li a:hover {
         height: 100px;
         margin-right: 10px;
     }
+
     .osn_navigation a {
         text-decoration: none;
         width: 50px;
@@ -1155,6 +1271,7 @@ ul li a:hover {
         line-height: 20px;
         color: #FFFFFF;
     }
+
     .osn_navigation a:hover {
         font-size: 24px;
         color: #5f9266;
